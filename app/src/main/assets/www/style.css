@@ -1,0 +1,42 @@
+body{
+margin:0;
+background:#0a0a0a;
+color:white;
+text-align:center;
+font-family:Arial;
+}
+
+h1{
+color:#00ffff;
+text-shadow:0 0 10px #00ffff;
+}
+
+input{
+padding:12px;
+width:80%;
+margin-top:20px;
+border-radius:10px;
+border:none;
+background:#111;
+color:white;
+}
+
+button{
+margin-top:15px;
+padding:12px;
+width:85%;
+border:none;
+background:#111;
+color:#00ffff;
+box-shadow:0 0 10px #00ffff;
+border-radius:10px;
+}
+
+.fade{
+animation:fadeIn 0.8s ease-in;
+}
+
+@keyframes fadeIn{
+from{opacity:0;}
+to{opacity:1;}
+}
